@@ -6,8 +6,9 @@
 int main(int argc, char *argv[])
 {
 	QApplication app(argc, argv);
-	QMainWindow *main = new QMainWindow();
-	main->setGeometry(0,0,500,500);
-	main->show();
+	QLabel *hello = new QLabel("Hello");
+	hello->setGeometry(0,0,500,500);
+	hello->show();
 	return app.exec();
 }
+

@@ -1,6 +1,5 @@
 #include <QApplication>
 #include <QtWidgets/QLabel>
-#include <QtGui>
 #include <QtWidgets/QMainWindow>
 
 int main(int argc, char *argv[])

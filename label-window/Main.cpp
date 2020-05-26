@@ -5,7 +5,8 @@
 int main(int argc, char *argv[])
 {
 	QApplication app(argc, argv);
-	QLabel *hello = new QLabel("Hello");
+	const char *message = "hello window.";
+	QLabel *hello = new QLabel(message);
 	hello->setGeometry(0,0,500,500);
 	hello->show();
 	return app.exec();

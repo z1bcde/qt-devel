@@ -222,6 +222,7 @@ Makefile: label-window.pro ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/win32-g++/q
 		../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/qt_config.prf \
 		../../../Qt5.15/5.15.0/mingw81_32/mkspecs/win32-g++/qmake.conf \
 		../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/exclusive_builds.prf \
 		../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/toolchain.prf \
 		../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/default_pre.prf \
@@ -249,7 +250,6 @@ Makefile: label-window.pro ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/win32-g++/q
 		../../../Qt5.15/5.15.0/mingw81_32/lib/Qt5Gui.prl \
 		../../../Qt5.15/5.15.0/mingw81_32/lib/Qt5Core.prl \
 		../../../Qt5.15/5.15.0/mingw81_32/lib/qtmain.prl \
-		.qmake.stash \
 		../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile label-window.pro
 ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/spec_pre.prf:
@@ -404,6 +404,7 @@ Makefile: label-window.pro ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/win32-g++/q
 ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/qt_config.prf:
 ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/win32-g++/qmake.conf:
 ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/exclusive_builds.prf:
 ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/toolchain.prf:
 ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/default_pre.prf:
@@ -431,7 +432,6 @@ label-window.pro:
 ../../../Qt5.15/5.15.0/mingw81_32/lib/Qt5Gui.prl:
 ../../../Qt5.15/5.15.0/mingw81_32/lib/Qt5Core.prl:
 ../../../Qt5.15/5.15.0/mingw81_32/lib/qtmain.prl:
-.qmake.stash:
 ../../../Qt5.15/5.15.0/mingw81_32/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile label-window.pro

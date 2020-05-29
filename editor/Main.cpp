@@ -11,7 +11,7 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 	QApplication app(argc, argv);
-	ifstream ifs("../Main.cpp");
+	ifstream ifs("./Main.cpp");
 	if(ifs)
 	{
 		string data;
